@@ -111,13 +111,13 @@ const ProductGridSingle = ({
             ) : (
                 ""
               )}
-            <div className="product-price">
+            {/* <div className="product-price">
             ₹{(product.variants[0].price+product.variants[0].tax).toString().split('.')[1]===undefined?(product.variants[0].price+product.variants[0].tax):(product.variants[0].price+product.variants[0].tax).toFixed(2)}
 
               <span className="old">
               ₹{product.variants !== undefined ? (product.variants[0].mrp) : null}
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

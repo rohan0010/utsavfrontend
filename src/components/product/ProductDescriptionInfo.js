@@ -1088,7 +1088,7 @@ const addToBuyNow = () => {
         sku != '' ? (<div className='text-capitalize'>SKU: #{sku}</div>) : null
       }
 
-      <div className='product-details-price'>
+      {/* <div className='product-details-price'>
         {product.variants && product.variants.length > 0 ? (
           <div className='product-price'>₹{price.toString().split('.')[1]===undefined?price:price.toFixed(2)}</div>
         ) : (
@@ -1100,7 +1100,7 @@ const addToBuyNow = () => {
         >
           ₹{product.variants !== undefined ? mrp : null}
         </span>
-      </div>
+      </div> */}
       {product.averageRating && product.averageRating > 0 ? (
         <div className='pro-details-rating-wrap'>
           <div className='pro-details-rating'>
@@ -1189,28 +1189,7 @@ const addToBuyNow = () => {
 
       {
         <div className='pro-details-quality'>
-          <div className='cart-plus-minus'>
-            <button
-              onClick={() =>
-                setQuantityCount(quantityCount > 1 ? quantityCount - 1 : 1)
-              }
-              className='dec qtybutton'
-            >
-              -
-            </button>
-            <input
-              className='cart-plus-minus-box'
-              type='text'
-              value={quantityCount}
-              readOnly
-            />
-            <button
-              onClick={() => setQuantityCount(quantityCount + 1)}
-              className='inc qtybutton'
-            >
-              +
-            </button>
-          </div>
+      
           {/* <div className='pro-details-cart btn-hover'>
             {
               <button

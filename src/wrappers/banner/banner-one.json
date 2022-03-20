@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "/assets/img/banner/one.jpeg",
+      "image": "https://api.utsavplastotech.co.in/ftp/Banner_Pics/pic0.jpeg",
       "title": "",
       "subtitle": "",
       "price": "",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "image": "/assets/img/banner/two.jpeg",
+      "image": "https://api.utsavplastotech.co.in/ftp/Banner_Pics/pic1.jpeg",
       "title": "",
       "subtitle": "",
       "price": "",
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "image": "/assets/img/banner/three.jpeg",
+      "image": "https://api.utsavplastotech.co.in/ftp/Banner_Pics/pic2.jpeg",
       "title": "",
       "subtitle": "",
       "price": "",
