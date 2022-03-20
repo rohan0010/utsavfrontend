@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/img/banner/one.jpeg",
+      "title": "",
+      "subtitle": "",
+      "price": "",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/banner/two.jpeg",
+      "title": "",
+      "subtitle": "",
+      "price": "",
+      "link": "/shop-grid-standard"
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/banner/three.jpeg",
+      "title": "",
+      "subtitle": "",
+      "price": "",
+      "link": "/shop-grid-standard"
+    }
+  ]
+  

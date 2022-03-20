@@ -1,0 +1,51 @@
+image: ubuntu
+
+cache:
+  paths:
+    - node_modules/
+
+
+build_deploy_stage:
+  stage: deploy
+  environment: Staging
+  only:
+    - staging
+  before_script:
+    - apt-get update && apt-get install -y openssh-client
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_KEY_STAGING")
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+  script:
+    - ssh $USER_STAGING@$SERVER_STAGING rm /var/www/html/$PROJECT/package-lock.json
+    - ssh $USER_STAGING@$SERVER_STAGING rm -r /var/www/html/$PROJECT/build
+    - ssh $USER_STAGING@$SERVER_STAGING git --git-dir=/var/www/html/$PROJECT/.git --work-tree=/var/www/html/$PROJECT pull origin staging
+    - ssh $USER_STAGING@$SERVER_STAGING npm  --prefix /var/www/html/$PROJECT  install
+    - ssh $USER_STAGING@$SERVER_STAGING CI=false npm  --prefix /var/www/html/$PROJECT run-script build
+    
+    
+build_deploy_prod:
+  stage: deploy
+  environment: Production
+  only:
+    - master
+  before_script:
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$SSH_KEY_PROD")
+    - mkdir -p ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+
+  script:
+    - rm ./package-lock.json
+    - rm -r ./build
+    - npm install
+    - CI=false npm run build
+    - mv build $PROJECT
+    - ssh $USER_PROD@$SERVER_PROD sudo mkdir -p /gitlab/production/$PROJECT
+    - ssh $USER_PROD@$SERVER_PROD sudo touch /gitlab/production/$PROJECT/abc.txt
+    - ssh $USER_PROD@$SERVER_PROD sudo rm -r /gitlab/production/$PROJECT/*
+    - ssh $USER_PROD@$SERVER_PROD sudo chmod 777 -R /gitlab
+    - scp -r $PROJECT $USER_PROD@$SERVER_PROD:/gitlab/production
+    - ssh $USER_PROD@$SERVER_PROD sudo chmod 755 -R /gitlab

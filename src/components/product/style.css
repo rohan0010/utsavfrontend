@@ -1,0 +1,90 @@
+.button-style {
+  border: 1px solid #f6f6f6;
+  padding: 0;
+  border-radius: 5px;
+  background-color: #f6f6f6;
+}
+
+.product-img img {
+  max-width: 600px;
+}
+.css-2b097c-container {
+  margin-bottom: 30px;
+}
+
+.click-to-check {
+  border: 1px solid #cccccc;
+  color: gray;
+  margin-top: 21px;
+}
+
+.click-to-check:hover {
+  background-color: #00295f;
+  color: #ffffff;
+}
+
+/* .modal-dialog {
+    width: 50%;
+    max-width: 50%;
+} */
+
+.product-details-content .product-price {
+  color: #fe5964;
+}
+
+.modal-button {
+  color: #00295f;
+  border: 1px solid #00295f;
+}
+
+.modal-button:hover {
+  background-color: #00295f;
+  color: #ffffff;
+}
+/* -------Product new style */
+.fa-shopping-cart {
+  font-size: 40px;
+}
+
+.product-discription h4 {
+  color: gray;
+  margin-top: 3px;
+}
+.product-discription h5 {
+  font-weight: bold;
+}
+
+.product-discription p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.shoping-icon-style {
+  height: 50px;
+  width: 50px;
+}
+
+.wishlist-btn {
+  font-size: 40px;
+}
+
+.fa-heart-wishlist {
+  font-size: 40px;
+  color: #ff0011;
+}
+
+@media only screen and (max-width: 557px) {
+  .shop-top-bar .select-shoing-wrap .shop-select {
+    margin-right: 0 !important;
+  }
+  .modal-dialog {
+    width: 95%;
+    max-width: 95%;
+  }
+}
+
+/* CArd Image Size set */
+/* .product-img .default-img, .hover-img{
+    width: 100%;
+    height: 54vh;
+    object-fit: contain; 
+  } */

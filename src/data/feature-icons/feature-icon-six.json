@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Free Shipping",
+    "subtitle": "Free Shipping on all orders over ₹300 after applying promo code"
+  },
+  {
+    "id": 2,
+    "title": "Support 24/7",
+    "subtitle": "Always ready to support our customers"
+  },
+  {
+    "id": 3,
+    "title": "Money Return",
+    "subtitle": "100% money return policy"
+  }
+]

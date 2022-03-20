@@ -1,0 +1,153 @@
+.input-checkbox{
+    opacity: 1 !important;
+}
+.custom-control-input {
+   width:18px !important;
+   height:21px !important;
+}
+
+.review_button{
+    border:1px solid #00295F;
+    color:#00295F;
+}
+
+.review_button:hover{
+    background-color: #00295F;
+    color:#ffffff;
+}
+
+.no-product-found{
+margin-left: 250px;
+ margin-top:8%;
+}
+
+.price_filter{
+    background-color: #ffffff;
+    border:1px solid #746f6f;
+}
+
+@media only screen and (max-width: 557px) {
+    .no-product-found{
+        margin-left: 70px;
+         margin-top:10%;
+        }
+  }
+
+.button_cursor{
+    cursor: pointer;
+}
+
+
+/* Tooltip here */
+
+/* .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  } */
+
+  .tooltip {
+    display:inline-block;
+    position:relative;
+    border-bottom:1px dotted #666;
+    text-align:left;
+}
+
+.tooltip .top {
+    min-width:200px; 
+    top:-20px;
+    left:50%;
+    transform:translate(-50%, -100%);
+    padding:10px 20px;
+    color:#000066;
+    background-color:transparent;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.tooltip:hover .top {
+    display:block;
+}
+
+.tooltip .top i {
+    position:absolute;
+    top:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.tooltip .top i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    background-color:transparent;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
+
+/* Side bar style */
+::-webkit-scrollbar {
+    width: 5px !important;
+    /* color: green; */
+  }
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00295F; 
+  }
+
+.ulOuter{
+    position: relative;
+    padding-top: 10px;
+}
+
+.account-selector__listing {
+    margin-bottom: 2rem;
+    max-height: 120px;
+    overflow: auto;
+    position: static;
+    box-shadow: 0 0 3px inset #eeeeee;
+}
+
+.fixed-li{
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

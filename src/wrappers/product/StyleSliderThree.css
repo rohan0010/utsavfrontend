@@ -1,0 +1,32 @@
+.swiper-button-next,
+.swiper-button-prev {
+  background-color:transparent;
+  border:0;
+  top:40%;
+}
+
+.swiper-button-prev {
+  left:20px;
+}
+
+.swiper-button-next{
+  right:20px;
+}
+
+.pe3, .pe4{
+  background: #E5EAEF; /* fallback color for old browsers */
+  background: rgba(161, 157, 157, 0.5);
+  color: #00295F;
+  text-align: center;
+  transition: all 0.3s ease-out;
+  border-radius: 100%;
+  font-size: 35px;
+  left:20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper-button-next,
+.swiper-button-prev {
+ display:none;
+}
+}

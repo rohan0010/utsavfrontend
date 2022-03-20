@@ -1,0 +1,53 @@
+.pe-7s-angle-left, .pe-7s-angle-right{
+    background: #E5EAEF; /* fallback color for old browsers */
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: #00295F;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    border-radius: 100%;
+    font-size: 50px;
+}
+
+
+.slider-animated-1 h5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;   
+    color:010101;
+}
+
+.slider-animated-1 h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 69px;
+    line-height: 90px;
+    color:010101  
+}
+
+.slider-btn{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 90px;
+    color:#ffffff;
+}
+
+.btnhover:hover{
+    background-color: #00295F;
+    border:1px solid #00295F;
+}
+
+/* 
+@media only screen and (max-width: 557px) {
+   
+    .pe-7s-angle-left, .pe-7s-angle-right{
+        display: none;
+    }
+
+
+  } */

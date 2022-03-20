@@ -1,0 +1,28 @@
+
+.vertical { 
+    border-left: 2px solid gray; 
+    height: 50px; 
+    position:absolute; 
+    left: 100%; 
+}
+
+
+.support-content{
+    text-align: center !important;
+}
+
+.feture-icon{
+    text-align: center;
+}
+.feture-icon h5{
+    color: #979695;
+    font-size:20px
+}
+
+.feture-icon p{
+    color: #979695;
+}
+
+.icon-border{
+    border-right: 2px solid #979695;
+}

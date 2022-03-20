@@ -1,0 +1,159 @@
+button.cart-btn-button {
+  font-size: 14px;
+  font-weight: 500;
+
+  padding: 13px 42px 12px;
+
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+
+  color: #fff;
+  border: medium none;
+  border-radius: 50px;
+  background-color: #062a5a;
+}
+
+button.cart-btn-button:hover {
+  background-color: #333;
+}
+
+/* .address-radio-button input{
+  width:0 !important;
+
+} */
+
+/* input{
+  width:0px !important;
+  height:0px !important;
+} */
+
+.address-input-button input {
+  width: 15px;
+  height: 15px;
+  margin: 0px 10px 0px 0px;
+}
+
+.single-my-account h3.address-input-button {
+  padding: 16px 10px;
+}
+
+.modal-style {
+  text-align: center;
+}
+
+.modal-style i {
+  text-align: center;
+  font-size: 120px;
+  color: green;
+  font-weight: bold;
+}
+
+.my-modal {
+  width: 700px; /* Occupy the 90% of the screen width */
+  max-width: 700px;
+}
+
+/* =========== employee choose file style=========== */
+.button-wrap {
+  position: relative;
+  }
+.button-wrap .new-button {
+  display: inline-block;
+  padding: 8px 14px; 
+  width:200px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #062a5a;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.button-wrap input[type="file"] {
+position: absolute;
+z-index: -1;
+top: 6px;
+left: 0;
+margin-left:90px;
+font-size: 15px;
+background-color: #ffffff;
+border:0;
+color: rgb(153,153,153);
+}
+
+/* =============================== */
+
+.modal-custom-style .modal-content{
+width:60% !important;
+margin: auto;
+}
+
+.contact-name{
+  width:30%;
+  text-align: center;
+  padding: 25px 0px !important;
+}
+
+
+.contact-value{
+
+  text-align: center;
+  padding: 25px 0px !important;
+}
+
+.feed-btn{
+  border-radius: 0px !important;
+  padding: 13px 35px !important;
+  font-size: 16px !important;
+}
+
+
+@media only screen and (max-width: 557px) {
+ 
+.modal-custom-style .modal-content{
+  width:100% !important;
+  margin: auto;
+  }
+  .modal-custom-style .modal-title{
+    font-size: 16px;
+  }
+
+  .faq h4{
+    text-align: left;
+    margin-left: 0px !important;
+    font-weight: 600;
+  }
+
+}
+
+
+.contact-area h1{
+  text-transform: capitalize;
+}
+
+
+
+
+
+.faq h4{
+  text-align: left;
+  margin-left: 17%;
+  font-weight: 600;
+}
+
+a:hover{
+  color:#2373db !important;
+}
+
+
+ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
