@@ -45,7 +45,7 @@ const ProductGridSingleEightNew = ({
                       style={{height:"181px",
                       width:"268px",
                       objectFit:"contain"}}
-                        src={`https://api.utsavplastotech.com${product.imageUrls[0]}`}
+                        src={`https://api.utsavplastotech.co.in${product.imageUrls[0]}`}
                         alt='product-img'
                         className='img-fluid'
                       />

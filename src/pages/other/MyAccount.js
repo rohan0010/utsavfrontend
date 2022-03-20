@@ -1237,7 +1237,7 @@ const MyAccount = ({ location }) => {
                                     <img
                                       src={
                                         preview === false
-                                          ? `https://api.utsavplastotech.com${imagepic}`
+                                          ? `https://api.utsavplastotech.co.in${imagepic}`
                                           : `${imagepic}`
                                       }
                                       className='img img-fluid img-thumbnail mb-3'

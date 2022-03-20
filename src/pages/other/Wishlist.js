@@ -98,7 +98,7 @@ const Wishlist = ({ location }) => {
                                             undefined ? (
                                               <img
                                                 className='img-fluid'
-                                                src={`https://api.utsavplastotech.com${wishlistItem.imageUrls[0]}`}
+                                                src={`https://api.utsavplastotech.co.in${wishlistItem.imageUrls[0]}`}
                                                 alt='img-alt'
                                               />
                                             ) : (

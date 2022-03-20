@@ -309,7 +309,7 @@ const ProductDescriptionTab = ({ spaceBottomClass, product }) => {
                                 {/* {r.isPublished==true?(<div></div>):null} */}
 
                                 {r.userId.userInfo.profilePic ? (
-                                  <img src={`https://api.utsavplastotech.com${r.userId.userInfo.profilePic}`} className="img-fluid" alt="profile" />
+                                  <img src={`https://api.utsavplastotech.co.in${r.userId.userInfo.profilePic}`} className="img-fluid" alt="profile" />
                                 ) : (
 
                                     <img src={
@@ -362,7 +362,7 @@ const ProductDescriptionTab = ({ spaceBottomClass, product }) => {
                             {/* {r.isPublished==true?(<div></div>):null} */}
 
                             {r.userId.userInfo.profilePic ? (
-                              <img src={`https://api.utsavplastotech.com${r.userId.userInfo.profilePic}`} className="img-fluid" alt="profile" />
+                              <img src={`https://api.utsavplastotech.co.in${r.userId.userInfo.profilePic}`} className="img-fluid" alt="profile" />
                             ) : (
 
                                 <img src={

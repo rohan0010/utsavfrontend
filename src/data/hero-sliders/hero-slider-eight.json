@@ -3,21 +3,21 @@
       "id": 1,
       "title": "New Product",
       "subtitle": "Offer by<br /> Black Friday",
-      "image": "https://api.utsavplastotech.com/ftp/Banner_Pics/pic0.jpeg",
+      "image": "https://api.utsavplastotech.co.in/ftp/Banner_Pics/pic0.jpeg",
       "url": "/shop-grid-standard"
     },
     {
       "id": 2,
       "title": "Cosmetic Best Selling",
       "subtitle": "Fashion <br /> Cosmetic",
-      "image": "https://api.utsavplastotech.com/ftp/Banner_Pics/pic1.jpeg",
+      "image": "https://api.utsavplastotech.co.in/ftp/Banner_Pics/pic1.jpeg",
       "url": "/shop-grid-standard"
     },
     {
       "id": 3,
       "title": "Cosmetic Selling",
       "subtitle": "Fashion <br /> Cosmetic",
-      "image": "https://api.utsavplastotech.com/ftp/Banner_Pics/pic2.jpeg",
+      "image": "https://api.utsavplastotech.co.in/ftp/Banner_Pics/pic2.jpeg",
       "url": "/shop-grid-standard"
     }
   ]

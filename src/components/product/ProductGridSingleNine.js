@@ -39,7 +39,7 @@ const ProductGridSingleNine = ({
                 {product.imageUrls.length > 0 && product.imageUrls[0] !== null ? (<img
                   style={{height:"181px",
                   objectFit:"contain"}}
-                  src={`https://api.utsavplastotech.com${product.imageUrls[0]}`}
+                  src={`https://api.utsavplastotech.co.in${product.imageUrls[0]}`}
                   alt="product-img"
                   className="img-fluid default"
                 />) : (<img
@@ -54,7 +54,7 @@ const ProductGridSingleNine = ({
                     className="hover-img"
                     style={{height:"181px",
                     objectFit:"contain"}}
-                    src={`https://api.utsavplastotech.com${product.imageUrls[1]}`}
+                    src={`https://api.utsavplastotech.co.in${product.imageUrls[1]}`}
                     alt="product-img"
                   />
                 ) : (

@@ -66,7 +66,7 @@ const ProductGridSingleEight = ({
 
                                 {product.imageUrls.length > 0&&product.imageUrls[0]!==null ? (
                                     <img
-                                        src={`https://api.utsavplastotech.com${product.imageUrls[0]}`}
+                                        src={`https://api.utsavplastotech.co.in${product.imageUrls[0]}`}
                                         className="default-img"
                                         alt="true-image"
                                     />
@@ -82,7 +82,7 @@ const ProductGridSingleEight = ({
                                 {product.imageUrls.length > 1 &&product.imageUrls[1]!==null ? (
                                     <img
                                         className="hover-img"
-                                        src={`https://api.utsavplastotech.com${product.imageUrls[1]}`}
+                                        src={`https://api.utsavplastotech.co.in${product.imageUrls[1]}`}
                                         alt="product-img"
                                     />
                                 ) : (

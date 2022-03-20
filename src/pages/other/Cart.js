@@ -139,7 +139,7 @@ const Cart = ({ location }) => {
                                         <img
                                         style={{height:"92px",
                                         objectFit:"contain"}}
-                                          src={`https://api.utsavplastotech.com${cartItem.imageUrls[0]}`}
+                                          src={`https://api.utsavplastotech.co.in${cartItem.imageUrls[0]}`}
                                           alt=''
                                           className='img-fluid'
                                         />

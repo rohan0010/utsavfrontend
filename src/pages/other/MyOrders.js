@@ -487,7 +487,7 @@ const Checkbox = ({ fnClick, fnChange, title = "", checked = false }) => (
                 }}
               >
                 <p style={{ color: '#0000FF' }}>
-                  <a href={`https://api.utsavplastotech.com${orderdetials.invoiceUrl}`}
+                  <a href={`https://api.utsavplastotech.co.in${orderdetials.invoiceUrl}`}
                     target="_blanck"
                     style={{ width: 180 }}
                     className='btn btnColor'
@@ -534,7 +534,7 @@ const Checkbox = ({ fnClick, fnChange, title = "", checked = false }) => (
                                     <img
                                     style={{height:"71px",
                                     objectFit:"contain"}}
-                                      src={`https://api.utsavplastotech.com${p.imageUrl}`}
+                                      src={`https://api.utsavplastotech.co.in${p.imageUrl}`}
                                       alt='product img'
                                       className='img-fluid'
                                     />
@@ -633,7 +633,7 @@ const Checkbox = ({ fnClick, fnChange, title = "", checked = false }) => (
                                 <strong>
                                   {p.imageUrl !== undefined ? (
                                     <img
-                                      src={`https://api.utsavplastotech.com${p.imageUrl}`}
+                                      src={`https://api.utsavplastotech.co.in${p.imageUrl}`}
                                       alt='product img'
                                       className='img-fluid'
                                     />
@@ -862,7 +862,7 @@ const Checkbox = ({ fnClick, fnChange, title = "", checked = false }) => (
                                                             <img
                                                             style={{height:"71px",
                                                             objectFit:"contain"}}
-                                                              src={`https://api.utsavplastotech.com${p.imageUrl}`}
+                                                              src={`https://api.utsavplastotech.co.in${p.imageUrl}`}
                                                               alt='product img'
                                                               className='img-fluid'
                                                             />

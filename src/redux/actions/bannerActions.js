@@ -17,7 +17,7 @@ export const fetchbanner = () => async (dispatch) => {
           id: i + 1,
           "title": "",
           "subtitle": "",
-          image: "https://api.utsavplastotech.com" + response.data.content[i].imageUrl,
+          image: "https://api.utsavplastotech.co.in" + response.data.content[i].imageUrl,
           "url": "/shop-grid-standard"
         })
       }

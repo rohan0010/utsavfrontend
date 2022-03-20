@@ -73,7 +73,7 @@ const ProductImageGallery = ({ product }) => {
                         <React.Fragment>
                           <LightgalleryItem
                             group='any'
-                            src={`https://api.utsavplastotech.com${single}`}
+                            src={`https://api.utsavplastotech.co.in${single}`}
                           >
                             <button>
                               <i className="pe-7s-expand1"></i>
@@ -83,7 +83,7 @@ const ProductImageGallery = ({ product }) => {
                             <img
                             style={{height:"564px",
                           objectFit:"contain"}}
-                              src={`https://api.utsavplastotech.com${single}`}
+                              src={`https://api.utsavplastotech.co.in${single}`}
                               className='img-fluid'
                               alt='product-img'
                             />
@@ -140,7 +140,7 @@ const ProductImageGallery = ({ product }) => {
                   <div className='single-image'>
                     {single!=null ? (
                       <img
-                        src={`https://api.utsavplastotech.com${single}`}
+                        src={`https://api.utsavplastotech.co.in${single}`}
                         className='img-fluid'
                       />
                     ) : (

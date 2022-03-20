@@ -59,7 +59,7 @@ const Employment = ({ location }) => {
   const handleSubmit = async (event) => {
     event.preventDefault()
     if (mobile.length === 10) {
-      var url = "https://api.utsavplastotech.com/commonroutes/mail";
+      var url = "https://api.utsavplastotech.co.in/commonroutes/mail";
 
       fetch(url, {
         method: 'post',

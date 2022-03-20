@@ -8,7 +8,7 @@ const ProductImageFixed = ({ product }) => {
       <div className="product-fixed-image">
 
         {product.imageUrls !== undefined&&product.imageUrls[0]!==null ? (<img
-          src={`https://api.utsavplastotech.com${product.imageUrls[0]}`}
+          src={`https://api.utsavplastotech.co.in${product.imageUrls[0]}`}
           className="img-fluid"
         />) : (<img
           src={`../../../public/assets/img/externalimages/no-image-available.jpg`}

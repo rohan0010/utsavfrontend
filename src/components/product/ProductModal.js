@@ -523,7 +523,7 @@ function ProductModal(props) {
                           <div key={key}>
                             {single !== null ? (<div className='single-image'>
                               <img
-                                src={`https://api.utsavplastotech.com${single}`}
+                                src={`https://api.utsavplastotech.co.in${single}`}
                                 className='img-fluid'
                                 alt='product-img'
                               />
@@ -562,7 +562,7 @@ function ProductModal(props) {
                           <div className='single-image'>
                             {single !== null ? (
                               <img
-                                src={`https://api.utsavplastotech.com${single}`}
+                                src={`https://api.utsavplastotech.co.in${single}`}
                                 className='img-fluid'
                               />
                             ) : (

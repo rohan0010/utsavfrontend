@@ -52,7 +52,7 @@ const ProductGridSingle = ({
                     height:"170px",
                     objectFit:"contain"
                   }}
-                    src={`https://api.utsavplastotech.com${product.imageUrls[0]}`}
+                    src={`https://api.utsavplastotech.co.in${product.imageUrls[0]}`}
                     className="default-img"
                   />
                 ) : (
@@ -71,7 +71,7 @@ const ProductGridSingle = ({
                     objectFit:"contain"
                   }}
                     className="hover-img"
-                    src={`https://api.utsavplastotech.com${product.imageUrls[1]}`}
+                    src={`https://api.utsavplastotech.co.in${product.imageUrls[1]}`}
                   />
                 ) : (
                     <img
