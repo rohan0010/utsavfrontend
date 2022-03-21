@@ -19,7 +19,7 @@ const ShopTopAction = ({
 
   return (
     <div className="shop-top-bar mb-35">
-      <div className="select-shoing-wrap">
+      <div style={{display:"none"}} className="select-shoing-wrap">
         <div className="shop-select">
           <select
             onChange={e => {

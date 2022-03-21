@@ -72,7 +72,7 @@ const ShopSidebar = ({ sideSpaceClass }) => {
       <ShopSearch />
 
       {/* filter by categories */}
-      <div className='sidebar-widget'>
+      <div style={{display:"none"}} className='sidebar-widget'>
         <div className='sidebar-widget-list mt9-30'>
           {varinats.map((v, i) => {
             return (

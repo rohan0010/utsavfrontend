@@ -64,7 +64,7 @@ const Contact = ({ location }) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          To: ['rohancool3845@gmail.com'],
+          To: ['utsavplastotech@gmail.com'],
           subject: 'New Query',
           text: 'New',
           html: `
@@ -72,7 +72,6 @@ const Contact = ({ location }) => {
             <h1 style="color: #5b5b5b;">Last Name : ${lastName}</h1>
             <h3 style="color: #757575;">Email: ${email}</h3>
             <h3 style="color: #757575;">Mobile Number: ${mobile}</h3>
-            <h3 style="color: #757575;">Order Id and subject: ${orderno}</h3>
             <h3 style="color: #757575;">Description: ${description}</h3>
             
           
@@ -223,7 +222,7 @@ const Contact = ({ location }) => {
                         <span style={{ color: '#F43128' }}>{mobError}</span>
                       </td>
                     </tr>
-                    <tr>
+                    {/* <tr>
                       <td className="contact-name">
                         <h4>
                           Order no and Subject{' '}
@@ -246,7 +245,7 @@ const Contact = ({ location }) => {
                         Order Change | Order Issue | Order Status | Return | Other
                         </p>
                       </td>
-                    </tr>
+                    </tr> */}
                     <tr>
                       <td className="contact-name">
                         <h4>

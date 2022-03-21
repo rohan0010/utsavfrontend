@@ -10,7 +10,7 @@ const LanguageCurrencyChanger = ({
   return (
     <div className='language-currency-wrap p-3'>
       <div className='same-language-currency'>
-        <p className="text-white">Use Coupon Code alaroma10 for 10% discount over ₹500</p>
+        <p className="text-white">Welcome To Utsav Plasto Tech</p>
       </div>
     </div>
   );

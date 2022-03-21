@@ -43,7 +43,7 @@ const BrandFeedback = ({ location }) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        To: ['rohancool3845@gmail.com'],
+        To: ['utsavplastotech@gmail.com'],
         subject: 'Brand Feedback',
         text: 'Brand Feedback',
         html: `

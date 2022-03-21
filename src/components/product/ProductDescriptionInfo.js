@@ -204,7 +204,7 @@ const addToBuyNow = () => {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            To: ['rohancool3845@gmail.com','pramodjha10@gmail.com','pkseherbal@gmail.com'],
+            To: ['utsavplastotech@gmail.com','pramodjha10@gmail.com','pkseherbal@gmail.com'],
             subject: "Insufficient Stock", // Subject line
             text: "Update Stock", // plaintext body
             html: `
@@ -279,7 +279,7 @@ const addToBuyNow = () => {
                 'Content-Type': 'application/json',
               },
               body: JSON.stringify({
-                To: ['rohancool3845@gmail.com','pramodjha10@gmail.com','pkseherbal@gmail.com'],
+                To: ['utsavplastotech@gmail.com','pramodjha10@gmail.com','pkseherbal@gmail.com'],
                 subject: "Insufficient Stock", // Subject line
                 text: "Update Stock", // plaintext body
                 html: `
@@ -354,7 +354,7 @@ const addToBuyNow = () => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        To: ['rohancool3845@gmail.com'],
+        To: ['utsavplastotech@gmail.com'],
         subject: 'New bulk enquiry',
         text: 'Bulk Enquiry',
         html: `
@@ -644,7 +644,7 @@ const addToBuyNow = () => {
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-              To: ['rohancool3845@gmail.com','pramodjha10@gmail.com','pkseherbal@gmail.com'],
+              To: ['utsavplastotech@gmail.com','pramodjha10@gmail.com','pkseherbal@gmail.com'],
               subject: "Insufficient Stock", // Subject line
               text: "Update Stock", // plaintext body
               html: `
@@ -723,7 +723,7 @@ const addToBuyNow = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          To: ['rohancool3845@gmail.com','pramodjha10@gmail.com','pkseherbal@gmail.com'],
+          To: ['utsavplastotech@gmail.com','pramodjha10@gmail.com','pkseherbal@gmail.com'],
           subject: "Insufficient Stock", // Subject line
           text: "Update Stock", // plaintext body
           html: `

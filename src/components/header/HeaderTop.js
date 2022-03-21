@@ -39,7 +39,7 @@ const HeaderTop = ({
           />
         </a> */}
 
-            <a href='https://www.facebook.com/alaroma.leafs' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.facebook.com/UTSAV-Plasto-TECH-103541168509428/' target='_blank' rel='noopener noreferrer'>
               <img
                 src='/assets/img/zigaaroo-Icons/facebook.png'
                 alt='logo'
@@ -49,7 +49,7 @@ const HeaderTop = ({
               />
             </a>
          
-
+{/* 
             <a href='https://www.instagram.com/al_aroma.leafs/?r=nametag' target='_blank' rel='noopener noreferrer'>
               <img
                 src='/assets/img/zigaaroo-Icons/instagram.png'
@@ -57,15 +57,15 @@ const HeaderTop = ({
                 className='img-fluid ml-1 mr-1'
                 style={{ width: 30, height: 30 }}
               />
-            </a>
-            <a href='https://twitter.com/AlaromaLeafs?s=09' target='_blank' rel='noopener noreferrer'>
+            </a> */}
+            {/* <a href='https://twitter.com/AlaromaLeafs?s=09' target='_blank' rel='noopener noreferrer'>
               <img
                 src='/assets/img/zigaaroo-Icons/twitter.png'
                 alt='logo'
                 className='img-fluid ml-1 mr-1'
                 style={{ width: 25, height: 25 }}
               />
-            </a>
+            </a> */}
             <a href='https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=utsavplastotech@gmail.com' target='_blank' rel='noopener noreferrer'>
               <img
                 src='/assets/img/zigaaroo-Icons/ggmail.jpeg'
@@ -85,7 +85,7 @@ const HeaderTop = ({
             style={{ width: 25, height: 25, borderRadius: '100%' }}
           />
         </a> */}
-            <a href='https://www.youtube.com/' target='_blank' rel='noopener noreferrer'>
+            <a href='https://youtube.com/channel/UCgARKYgNWTFzzEp0CRjTa0w' target='_blank' rel='noopener noreferrer'>
               <img
                 src='/assets/img/zigaaroo-Icons/youtube.png'
                 alt='logo'

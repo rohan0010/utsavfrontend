@@ -11,7 +11,7 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
     >
       <div className="footer-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <img alt="" src={process.env.PUBLIC_URL + footerLogo} />
+          <img style={{width:"30px",height:"30px",marginLeft:"60px"}} alt="" src={process.env.PUBLIC_URL + footerLogo} />
         </Link>
       </div>
       <p style={{ fontSize: '14px', textAlign: 'center' }}>
